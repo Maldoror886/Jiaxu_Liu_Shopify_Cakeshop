@@ -2334,15 +2334,6 @@
               "product_tab_content_2": ""
             }
           },
-          "1585034167278": {
-            "type": "product_tab",
-            "settings": {
-              "type_tab": "all",
-              "product_tab_title": "Custom Tab",
-              "product_tab_content": "<div class=\"custom-tab\">\n  <div class=\"des-top rte\">\n    <p>Quisque convallis marius odio sed aliquet. Denean de rutrum ante. Sed sed massa laoreet finibus sem at interdum nisi. Morbi porttitor lobortis.<\/p>\n  <\/div>\n  <div class=\"tab-ct-content\">\n    <ul class=\"item\">\n      <li class=\"case_des\">\n        <span>Milancelos:<\/span>\n      <\/li>\n      <li class=\"des\">\n        <span>Comodous in tempor miaculis<\/span>\n      <\/li>\n    <\/ul>\n    <ul class=\"item\">\n      <li class=\"case_des\">\n        <span>Metropolitanos:<\/span>\n      <\/li>\n      <li class=\"des rte\">\n        <span>Pellentesque vitae neque mollis urna mattis<\/span>\n      <\/li>\n    <\/ul>\n    <ul class=\"item\">\n      <li class=\"case_des\">\n        <span>Cosmopolis:<\/span>\n      <\/li>\n      <li class=\"des rte\">\n        <span>Divamus sit amet purus justo<\/span>\n      <\/li>\n    <\/ul>\n    <ul class=\"item\">\n      <li class=\"case_des\">\n        <span>Loremous:<\/span>\n      <\/li>\n      <li class=\"des rte\">\n        <span>Proin molestie egestas orci ac suscipit risus posuere<\/span>\n      <\/li>\n    <\/ul>\n\n  <\/div>\n<\/div>",
-              "product_tab_content_2": ""
-            }
-          },
           "1585034868752": {
             "type": "lookbook_galry_item",
             "settings": {
@@ -2370,7 +2361,6 @@
         },
         "block_order": [
           "1585034136444",
-          "1585034167278",
           "1585034868752",
           "1585034920260"
         ],
