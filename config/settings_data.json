@@ -191,7 +191,7 @@
     "minute_countdown": "30",
     "enable_paypal": true,
     "banner_paypal": "shopify:\/\/shop_images\/paypal-banner-compressor.png",
-    "enable_products_cart_sidebar": true,
+    "enable_products_cart_sidebar": false,
     "products_cart_sidebar_title": "You May Also Like...",
     "cart_products_limit": "3",
     "products_cart_sidebar": "lobortis",
