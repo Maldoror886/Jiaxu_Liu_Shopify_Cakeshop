@@ -572,15 +572,15 @@
           "footer_preview_demo": "Privacy policy",
           "link_preview": "shopify:\/\/pages\/about-us",
           "show_payment_icons": true,
-          "payment_display_visa": true,
+          "payment_display_visa": false,
           "payment_display_visa_electron": false,
-          "payment_display_american_express": true,
-          "payment_display_master": true,
+          "payment_display_american_express": false,
+          "payment_display_master": false,
           "payment_display_maestro": false,
           "payment_display_solo": false,
-          "payment_display_paypal": true,
-          "payment_display_amazon_payments": true,
-          "payment_display_apple_pay": true,
+          "payment_display_paypal": false,
+          "payment_display_amazon_payments": false,
+          "payment_display_apple_pay": false,
           "payment_display_bitcoin": false,
           "payment_display_cirrus": false,
           "payment_display_dankort": false,
@@ -594,7 +594,8 @@
           "payment_display_litecoin": false,
           "payment_display_stripe": false,
           "payment_display_sage": false,
-          "payment_display_wallet": false
+          "payment_display_wallet": false,
+          "icon_visa": "shopify:\/\/shop_images\/logo_2.png"
         }
       },
       "navigation": {
