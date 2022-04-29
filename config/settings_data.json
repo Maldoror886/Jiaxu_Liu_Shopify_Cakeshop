@@ -194,7 +194,7 @@
     "enable_products_cart_sidebar": true,
     "products_cart_sidebar_title": "You May Also Like...",
     "cart_products_limit": "3",
-    "products_cart_sidebar": "CAKE",
+    "products_cart_sidebar": "cake",
     "redirect_button": "link_to",
     "link_to_redirect": "shopify:\/\/collections\/all",
     "color_body_text": "#787878",
@@ -2288,7 +2288,6 @@
         "settings": {
           "cart_ajax_enable": true,
           "trust_img_enable": true,
-          "trust_img": "shopify:\/\/shop_images\/truck-banner-compressor.png",
           "cart_notes_enable": true,
           "show_shipping_calculator": true,
           "shipping_calculator_default_country": "Canada"
@@ -2305,7 +2304,7 @@
           "custom-color": false,
           "color_heading_custom": "",
           "color_description_custom": "",
-          "collection": "comodianos",
+          "collection": "cake",
           "collection_layout": "carousel",
           "column": 4,
           "rows": 6,
