@@ -327,7 +327,7 @@
                 "prevArrow": "<div class=slick-prev slick-arrow&apos;><svg class=&apos;icon&apos;><use xlink:href=&apos;#icon-chevron-left-db&apos; /></svg></div>", 
                 "nextArrow": "<div class=&apos;slick-next slick-arrow&apos;><svg class=&apos;icon&apos;><use xlink:href=&apos;#icon-chevron-right-db&apos; /></svg></div>"
             }'>
-                {% for product in collection.products limit: {{settings.cart_products_limit}} %}
+                {% for product in collection.products limit: settings.cart_products_limit %}
                     <div class="halo-column__item">
                         {% render 'widget_product_sidebar', product: product, serial: forloop.index %}
                     </div>
@@ -335,4 +335,14 @@
             </div>
         </div>
     {% endif %}
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% for product in collection.products limit: {{settings.cart_products_limit}}
+    %}"
+  to: "{% for product in collection.products limit: settings.cart_products_limit %}"
+  position: 25747..25823
+{%- endcomment -%}

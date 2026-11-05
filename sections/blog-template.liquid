@@ -7,7 +7,7 @@
       </div>
   </div>
 
-{% paginate blog.articles by {{section.settings.blog_post_one_page}} %}
+{% paginate blog.articles by section.settings.blog_post_one_page %}
 {% for article in blog.articles %}
     <article class="blog">
         <div class="blog-post-header">
@@ -115,3 +115,13 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% paginate blog.articles by {{section.settings.blog_post_one_page}} %}"
+  to: "{% paginate blog.articles by section.settings.blog_post_one_page %}"
+  position: 356..423
+{% endcomment %}

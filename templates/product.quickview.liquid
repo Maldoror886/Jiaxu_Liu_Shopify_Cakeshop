@@ -273,7 +273,7 @@
             
 
             <div class="product_form_wrapper">
-                {% capture "form_classes" -%}
+                {% capture form_classes -%}
                     product-form product-form-{{ product.id }}{% if settings.qv_enable_payment_button and product.has_only_default_variant%} product-form--payment-button-no-variants{% endif %}
                 {%- endcapture %}
 
@@ -411,4 +411,13 @@
             {% endfor %}
         };
     </script>
-{% endunless %}
+{% endunless %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% capture "form_classes" -%}'
+  to: "{% capture form_classes -%}"
+  position: 19147..19174
+{%- endcomment -%}
